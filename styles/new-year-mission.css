@@ -55,18 +55,65 @@
 }
 /* main */
 /* past year section style */
+.past-year-section{
+  width: 1300px;
+  height: 850px;
+  background: #FFF;
+  border: 0;
+  margin-left: 150px;
+  padding-bottom: 110px;
+  
+}
 .past-year{
   display: flex;
+  gap: 180px;
 }
-/* .past-year .past-year-image .circle{
-  width: 527px;
-  height: 527px;
-  background-color: #fcded3;
-  border-radius: 50%;
-  display: inline-block;
-} */
-/* .past-year .past-year-image img{
- margin-top: 0;
-} */
+.past-year .past-year-image{
+  width: 450px;
+  height: 800px;
+  margin: 0;
+}
+.past-year .past-year-fault{
+  margin-top: 360px;
+}
+.past-year .past-year-fault-title{
+  width: 288px;
+  height: 94px;
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 24px;
+}
+.past-year .past-year-fault-description{
+  width: 416px;
+  height: 104px;
+  color: #444343;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 16px;
+}
+.past-year .past-year-fault .fault-lists{
+  list-style: none;
+}
+.past-year .past-year-fault .fault-lists .check-sign{
+  color: #16D887;
+  width: 34px;
+  height: 34px;
+}
+.past-year .past-year-fault .fault-lists .fault-list-item{
+  color: #444343;
+  font-size: 20px;
+  font-weight: 400;
+}
 
+/* my plan section styles */
+/* .plan{
+  width: 1300px;
+  height: 300px;
+  background: #FFF;
+  border: 1px solid red;
+  margin-left: 150px;
+  padding-bottom: 110px;
+} */
 
