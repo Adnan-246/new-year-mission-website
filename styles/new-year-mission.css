@@ -110,7 +110,7 @@
 
 /* my plan section styles */
 .plan-section{
-  width: 1200px;
+  width: 1300px;
   height: 300px;
   background: #FFF;
   border: 0;
@@ -185,4 +185,37 @@
   text-align: center;
   font-size: 22px;
   font-weight: 500;
+}
+
+/* focus section styles */
+.focus-section{
+  width: 1140px;
+  height: 300px;
+  border: 0;
+  margin-left: 200px;
+  margin-top: 120px;
+  background-image: url('../images/gradient2.png'), url('../images/watch.png');
+  background-repeat: no-repeat;
+}
+.focus .focus-title{
+  width: 460px;
+  height: 94px;
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 60px;
+  padding-left: 64px; 
+}
+.focus .focus-button{
+  padding-left: 60px;
+}
+.focus .focus-button .focus-btn-primary{
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  background: #FFF;
+  border: 0;
+  color: #F15B22;
+  font-size: 20px;
+  font-weight: 600;
 }
