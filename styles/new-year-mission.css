@@ -143,9 +143,46 @@
 .my-plans .plan-item .plan-item-description{
   color: #737272;
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 500;
 }
 
 /* Future Target styles */
-
+.target-section{
+  width: 1300px;
+  height: 300px;
+  background: #FFF;
+  border: 0;
+  margin-top: 110px;
+  margin-left: 150px;
+  padding-bottom: 120px;
+}
+.target-section-title{
+  text-align: center;
+  height: 48px; 
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+.my-target{
+  display: flex;
+  justify-content: space-around;
+}
+.my-target .target-item .target-item-image{
+  width: 93px;
+  height: 93px;
+  padding-bottom: 30px;
+}
+.my-target .target-item .target-item-title{
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.my-target .target-item .target-item-description{
+  color: #737272;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+}
