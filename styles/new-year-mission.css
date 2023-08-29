@@ -17,7 +17,7 @@
   border: 0;
   background-image: url('../images/banner/banner2.png');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position:center;
 }
 /* banner title styles*/
 .banner .banner-title{
@@ -54,6 +54,7 @@
   font-weight: 600;
 }
 /* main */
+
 /* past year section style */
 .past-year-section{
   width: 1300px;
@@ -108,12 +109,43 @@
 }
 
 /* my plan section styles */
-/* .plan{
-  width: 1300px;
+.plan-section{
+  width: 1200px;
   height: 300px;
   background: #FFF;
-  border: 1px solid red;
+  border: 0;
   margin-left: 150px;
-  padding-bottom: 110px;
-} */
+  padding-bottom: 120px;
+}
+.plan-section-title{
+  text-align: center;
+  height: 48px; 
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+.my-plans{
+  display: flex;
+  justify-content:space-around;
+}
+.my-plans .plan-item .plan-item-image{
+  width: 93px;
+  height: 93px;
+  padding-bottom: 25px;
+}
+.my-plans .plan-item .plan-item-title{
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.my-plans .plan-item .plan-item-description{
+  color: #737272;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* Future Target styles */
 
