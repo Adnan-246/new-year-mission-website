@@ -12,7 +12,7 @@
 
 /* banner */
 .banner{
-  width: 1600px;
+  width: 100%;
   height: 810px;
   border: 0;
   background-image: url('../images/banner/banner2.png');
@@ -52,6 +52,7 @@
   color: #FFF;
   font-size: 20px;
   font-weight: 600;
+  margin-right: 250px;
 }
 /* main */
 
@@ -153,7 +154,7 @@
   height: 300px;
   background: #FFF;
   border: 0;
-  margin-top: 110px;
+  margin-top: 120px;
   margin-left: 150px;
   padding-bottom: 120px;
 }
@@ -215,6 +216,83 @@
   border-radius: 5px;
   background: #FFF;
   border: 0;
+  color: #F15B22;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* footer styles */
+.footer-section{
+  width: 100%;
+  height: 577px;
+  background: #151414;
+  margin-top: 120px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.footer .contact .contact-title{
+  width: 148px;
+  height: 53px;
+  padding-top: 130px;
+  padding-left: 230px;
+  /* padding-bottom: 16px; */
+  color: #F8F8F8;
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer .contact .contact-description{
+  width: 485px;
+  height: 78px;
+  color: #FFF;
+  padding-left: 230px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer .contact .contact-email{
+  color: #FFF;
+  padding-left: 230px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer .contact .contact-phone{
+  color: #FFF;
+  padding-left: 230px;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.footer .contact .social-site{
+  display: flex;
+  gap: 10px;
+  padding-left: 210px;
+}
+.footer .subscribe .subscribe-title{
+  width: 123px;
+  height: 30px;
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 130px;
+  padding-right: 431px;
+}
+.footer .subscribe .subscribe-email input[type="email"]{
+  width: 300px;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  background: #151414;
+  padding-left: 21px;
+}
+.footer .subscribe .subscribe-btn{
+  width: 170px;
+  height: 64px;
+  border-radius: 8px;
+  background: #FFF;
   color: #F15B22;
   font-size: 20px;
   font-weight: 600;
