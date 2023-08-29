@@ -1,0 +1,72 @@
+*{
+  margin-left: 12px;
+  margin-top: 0;
+  margin-right: 0;
+  font-family: Work Sans;
+}
+/* header styles */
+.header{
+  text-align: right;
+  padding-bottom: 140px;
+}
+
+/* banner */
+.banner{
+  width: 1600px;
+  height: 810px;
+  border: 0;
+  background-image: url('../images/banner/banner2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* banner title styles*/
+.banner .banner-title{
+  width: 525px;
+  height: 228px;
+  color: #151414;
+  font-size: 65px;
+  font-weight: 700;
+  padding-left: 870px;
+  padding-top: 216px;
+  padding-bottom: 24px;
+}
+/* banner-description styles*/
+.banner .banner-description{
+  width: 494px;
+  height: 78px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 890px;
+  padding-bottom: 32px;
+}
+/* Banner button styles */
+
+.banner .banner-button .btn-primary{
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  background: #F15B22;
+  margin-right: 200px;
+  border: 0;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* main */
+/* past year section style */
+.past-year{
+  display: flex;
+}
+/* .past-year .past-year-image .circle{
+  width: 527px;
+  height: 527px;
+  background-color: #fcded3;
+  border-radius: 50%;
+  display: inline-block;
+} */
+/* .past-year .past-year-image img{
+ margin-top: 0;
+} */
+
+
